@@ -1,0 +1,70 @@
+.div-wrapper{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  height:500vh;
+  grid-auto-rows: 110px;
+  grid-template-areas:
+    "one two "
+    "one two "
+    "one two "
+    "one two"
+    "three four"
+    "three four"
+    "three four"
+    "five six"
+    "five six"
+    "five six"
+     "seven eight"
+     "seven eight"
+     "seven eight"
+    "nine ten"
+    "nine ten"
+    "nine ten"
+
+    
+}
+.one{
+  grid-area:one;
+  border: 3px solid black; 
+}
+.two{
+  grid-area:two;
+  border: 3px solid black; 
+  background-image: url("blob:chrome-untrusted://media-app/363aaf5f-c01e-4e8f-89fb-7cc3c2db1bab")
+  background-size: cover;
+}
+.three{
+  grid-area:three;
+  border: 3px solid black; 
+}
+.four{
+  grid-area:four;
+  border: 3px solid black; 
+}
+.five{
+  grid-area:five;
+  border: 3px solid black; 
+}
+.six{
+  grid-area:six;
+  border: 3px solid black; 
+}
+.seven{
+  grid-area:seven;
+  border: 3px solid black;
+}
+.eight{
+  grid-area:eight;
+  border: 3px solid black;
+}
+.nine{
+  grid-area:nine;
+  border: 3px solid black;
+}
+.ten{
+  grid-area:ten;
+  border: 3px solid black;
+}
+
+
+
