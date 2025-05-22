@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>About me webpage</title>
+    <style>
+      div{
+        margin: 20px;
+        border: 5px solid white;
+        padding: 10px;
+      }
+      body {
+        font-family: 'calibri';
+        background-color: #729867; /* Light green background */
+      }
+      h1 {
+        color: #a55b5a;
+        background-color: #FFB6C1; /* Light pink background for the header */
+        padding: 1rem;
+        border: solid white 2px; /* White border */
+        border-radius: 100px;
+        margin-top: 0.25rem;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 45px;
+        border:solid white 5px;
+        
+      }
+      .contact {
+        background-color: rgb(170, 156, 184);
+        padding: 5rem;
+        border-radius: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: rgb(18, 47, 92);
+      }
+      a:hover {
+        text-decoration: underline;
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="https://wildlandtrekking.com/content/uploads/2024/09/headerpicsymg-1600x395.png" alt="Mountain Image">
+      <h1>Catalina Chavez- About me</h1>
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Hiking</li>
+        <li>Listening to music</li>
+        <li>Reading</li>
+        <li>Cooking</li>
+        <li>Playing the guitar</li>
+      </ul>
+      <h2>Favorite things</h2>
+      <ol>
+        <li>Coffee</li>
+        <li>Family & friends</li>
+        <li>Dog</li>
+        <li>Headphones</li>
+        <li>Sleeping</li>
+        <li>Walks</li>
+        <li>fruit</li> 
+      </ol>  
+    
+      <h2>future goals</h2>
+      <ul>
+        <li>Take care of my family when im older.</li>
+        <li>Own a house by the lake.</li>
+        <li>Travel the world with friends and family.</li>
+        <li>Attend a 4 year university.</li>
+        <li>Have a fulfilling and stable career.</li>
+        </ul>
+      <h2>Brief description about who I am</h2>
+      <p> Welcome to my personal website! My name is Catalina Chavez. I am 16 years old and my birthday is July 25. I go to Mt.Eden High School and am currently a junior. Most of the time you can find me with my friends or family trying new things such as trail hikes, foods, or going to the park. As you go through my website you can see some of my personal projects created throughout the year.</p>
+      <div>
+      <p>My favorite website that I use most often is<a href= https://www.pinterest.com/> pinterest !</a></p>
+    </div>
+   <h2> - Projects done in AP Computer Science principles</h2>
+  <p>
+   <div class = "div-wrapper">
+     
+      <div class ="one">blah blah.....</div>
+      <div class ="two">
+     <a href= "https://codepen.io/Catalina552/pen/raNdrJL" target="_blank">
+       <img src="blob:chrome-untrusted://media-app/363aaf5f-c01e-4e8f-89fb-7cc3c2db1bab" width="200px">
+            <p>Link to the project</p>
+     </a>
+  </div>
+  
+  
+      <div class ="three">blah blah..</div>
+      <div class ="four">4</div>
+      <div class ="five">blah blah...</div>
+      <div class ="six">6</div>
+      <div class ="seven">blah blah..</div>
+      <div class ="eight">8</div>
+      <div class ="nine">blah...</div>
+      <div class ="ten">10</div>
+      </div>
+</p>
+  
+      
+      <div class="contact">
+  <h3>Contact Info-</h3>
+      <p>Please feel free to contact me directly with my email <a href=16958@husd.k12.ca.us> 16958@husd.k12.ca.us.</a></p>
+  </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Catalina Chavez Webpage</p>
+    </footer>
+  </body>
+</html>
